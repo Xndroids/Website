@@ -1,0 +1,1 @@
+document.addEventListener('mousemove',e=>{document.querySelector('.card').style.transform=`rotateY(${(e.clientX/window.innerWidth-.5)*8}deg) rotateX(${-(e.clientY/window.innerHeight-.5)*8}deg)`})
